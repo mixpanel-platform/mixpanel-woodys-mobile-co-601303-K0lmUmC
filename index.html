@@ -15,8 +15,9 @@
        interval: '30'
        
      };
-      MP.api.funnel('$signup', 'Browse', parms).done(function(results));
-      console.log(results.value)
+      MP.api.funnel('$signup', 'Browse', parms).done(function(results) {
+        console.log(results.value)
+      }):
     </script>
   </body>
 </html>
